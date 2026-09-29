@@ -29,7 +29,7 @@ class _LoginPageState extends State<LoginPage> {
       ScaffoldMessenger.of(context).showSnackBar(
         const SnackBar(
           backgroundColor: Colors.green,
-          content: Text("Login Berhasil! Selamat datang di Zoo App"),
+          content: Text("Login Berhasil!"),
         ),
       );
     } else {
